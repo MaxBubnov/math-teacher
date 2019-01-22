@@ -17,7 +17,7 @@ humburgerBlock.onclick = function(){
         first.classList.add("first-active");
         second.style.width = "0px";
         containerForItems.classList.add("containerForItems-active");
-        containerForItems.innerHTML = '<a href = "#gallery">Галерея</a><a href="#grafik">Расписание</a><a href = "#travel">Галерея №2</a><a href = "#contact">Контакты</a>';
+        containerForItems.innerHTML = '<a href = "#gallery">Галерея</a><a href="#grafik">Расписание</a><a href = "#travel">Математика</a><a href = "#contact">Контакты</a>';
         menu.classList.add("menu-active");
         i++;
     }
